@@ -359,8 +359,6 @@ func parseLinkDestination(block text.Reader) ([]byte, bool) {
 			if opened < 0 {
 				break
 			}
-		} else if util.IsSpace(c) {
-			break
 		}
 		i++
 	}
